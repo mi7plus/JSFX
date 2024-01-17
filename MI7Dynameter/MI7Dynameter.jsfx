@@ -1,4 +1,4 @@
-desc:Audio dymanics metering
+desc:MI7Dynameter
 //author: mi7plus
 
 slider1:300<50,5000,1.0>RMS Window (ms) (user input)
