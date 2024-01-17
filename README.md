@@ -25,3 +25,6 @@ Now it's just a matter of checking out what's on offer and installing those that
 The plugins won't show up until you refresh your FX list or restart reaper.
 
 #### Step 5: Enjoy! :)
+
+## MI7Dynameter
+![https://giphy.com/gifs/XGGRPPiC0IMcuEEwc](https://media.giphy.com/media/XGGRPPiC0IMcuEEwcL/giphy.gif)
