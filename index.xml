@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="mi7plus_JSFX" commit="51ec5192b70bbf4e8b19942819046d3093663fbe">
   <category name="mi7plus">
-    <reapack name="MI7Dynameter.jsfx" type="effect" desc="Dynamic range meter">
+    <reapack name="MI7Dynameter.jsfx" type="effect" desc="MI7Dynameter">
       <version name="1.0.0" author="George Olteanu" time="2024-01-17T13:30:17Z">
         <changelog><![CDATA[First commit]]></changelog>
         <source>https://raw.githubusercontent.com/mi7plus/mi7plus_JSFX/main/MI7Dynameter/MI7Dynameter.jsfx</source>
