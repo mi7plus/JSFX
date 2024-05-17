@@ -7,5 +7,11 @@
         <source>https://raw.githubusercontent.com/mi7plus/mi7plus_JSFX/main/MI7Dynameter/MI7Dynameter.jsfx</source>
       </version>
     </reapack>
+    <reapack name="MI7LoudnessMeter.jsfx" type="effect" desc="MI7LoudnessMeter">
+      <version name="1.0.0" author="George Olteanu" time="2024-05-17T13:30:17Z">
+        <changelog><![CDATA[First commit]]></changelog>
+        <source>https://raw.githubusercontent.com/mi7plus/mi7plus_JSFX/main/MI7LoudnessMeter/MI7LoudnessMeter.jsfx</source>
+      </version>
+    </reapack>
   </category>
 </index>
