@@ -941,7 +941,7 @@ global(gfx_w, gfx_h,fsz, #num, cfg_mono, speed, vh, lww)
 );
 
 function draw_graph_line(buff, R,G,B,A)
-local(i, th, th_prev, th_curr, curr, db, curx,cury,prevx,prevy)
+local(i, th, th_prev, th_curr, curr, db, curx,cury,prevx,prevy, db_prev)
 global(gfx_w, xr, cfg_mono, speed, vh, y0,yellow_level, red_level, lww)
 (
       yellow_level = slider(9);
@@ -950,12 +950,14 @@ global(gfx_w, xr, cfg_mono, speed, vh, y0,yellow_level, red_level, lww)
       th = 0;
       th_prev = 0;
       th_curr = 0;
+      db_prev = 0;
       loop(450,
         curr = buff[i];
         db = cfg_mono ? curr-3 : curr;
-        db > red_level ? set_color_red() : (
-            db > yellow_level ? set_color_yellow(): set_color2(R,G,B,A);
+        db_prev > red_level ? set_color_red() : (
+            db_prev > yellow_level ? set_color_yellow(): set_color2(R,G,B,A);
         );
+        db_prev = db;
         th_prev = th;
         th_curr += (scale_db1(db)-th_curr)*speed;
         th=(vh*th_curr);
