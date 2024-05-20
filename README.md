@@ -28,3 +28,7 @@ The plugins won't show up until you refresh your FX list or restart reaper.
 
 ## MI7Dynameter
 ![https://giphy.com/gifs/XGGRPPiC0IMcuEEwc](https://media.giphy.com/media/XGGRPPiC0IMcuEEwcL/giphy.gif)
+
+
+## MI7LodnessMeter
+![https://giphy.com/gifs/b6wliozjQNK9B7ud5E](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3pjcGU1YjRyMnIxaXFjZHBuY2QwM245M3RxZTJnbmV5d3JjZmkybCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b6wliozjQNK9B7ud5E/giphy.gif)
